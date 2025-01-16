@@ -20,7 +20,11 @@ const ListView = (props: ListViewProps) => {
                <div className='list-box'>
                    <FontAwesomeIcon className='icon' icon={faLocationDot} />
                <span className='country'>{props.item.country}</span>
-                <a className='mapLink' href={props.item.mapLink} target='_blank'> View on Google Maps</a>
+                <a className='mapLink'
+                   href={props.item.mapLink}
+                   target='_blank'>
+                    View on Google Maps
+                </a>
                 <p className='dates'>{props.item.dates}</p>
                  <p className='description'>{props.item.description}</p>
                </div>
