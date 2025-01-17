@@ -1,0 +1,7 @@
+[build]
+base = 'www/travelblog'
+publish = 'www/travelblog/build'
+command = 'npm run build'
+
+[dev]
+port = 8888
